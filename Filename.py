@@ -61,8 +61,8 @@ class Filename:
         return self.extension
 
     def get_filename(self):
-        assert type(basename) == str
-        assert type(extension) == str
+        assert type(self.basename) == str
+        assert type(self.extension) == str
         return self.basename + '.' + self.extension
 
     def set_basename(self, basename):
